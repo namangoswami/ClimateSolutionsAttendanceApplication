@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/jszip.js"></script>
+    
+  </head>
+  <body class="body jumbotron">
+    <div class="header-div  jumbotron" fixed>
+      <img src="oie_transparent2.png" alt="Climate Solutions" class="logo"></img>
+      <div class="subLogo">Attendance Application</div>
+    </div><div class="header-div2" fixed>
+      <img src="oie_transparent2.png" alt="Climate Solutions" class="logo"></img>
+      <div class="subLogo">Attendance Application</div>
+    </div>
+    <div class="mainContent" id="mainContent">
+      <input type="file" class="form-control selectFileButton"id="inputSF"/>
+      <button class="selectFile btn btn-outline-primary" id="selectFileButton" onclick="Upload()" >Submit File</button>
+    </div>
+    <div id="data" >
+      <div class="ElementDiv ElementDiv2" id="ElementPrimaryRow">
+        <span class="ElementDays">Name</span>
+        <span class="ElementNames">Days Attended</span>
+        <span class="ElementDays">Salary</span>
+        <span class="ElementNames">Calculated Salary</span></div>
+    </div>
+  </body>
+</html>
